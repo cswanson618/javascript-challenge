@@ -1,6 +1,6 @@
 const input = d3.select("input")
 const button = d3.select("button")
-const table = d3.select("body").append("table")
+const table = d3.select("body").append("table").classed("table table-hover", true)
 
 
 const handler = function(){
